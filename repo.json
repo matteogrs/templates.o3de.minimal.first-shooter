@@ -1,0 +1,12 @@
+{
+    "repo_name": "MinimalFirstPersonShooter",
+    "repo_uri": "https://github.com/matteogrs/templates.o3de.minimal.first-shooter",
+    "summary": "Throw the ball against targets.",
+    "origin": "@matteogrs",
+    "origin_url": "https://github.com/matteogrs",
+    "last_updated": "2025-01-14",
+    "templates": [
+        "https://github.com/matteogrs/templates.o3de.minimal.first-shooter/raw/refs/tags/v1.0.0-beta.1/script-canvas",
+        "https://github.com/matteogrs/templates.o3de.minimal.first-shooter/raw/refs/tags/v1.0.0-beta.1/lua"
+    ]
+}
