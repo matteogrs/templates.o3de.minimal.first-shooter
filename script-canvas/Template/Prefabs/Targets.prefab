@@ -1,0 +1,222 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Shelf",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5450715965067668573
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2203885720208958118
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12238011688301998138,
+                "Child Entity Order": [
+                    "Instance_[3942468452307]/ContainerEntity",
+                    "Instance_[4204461457363]/ContainerEntity",
+                    "Instance_[4406324920275]/ContainerEntity"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 3641184641277855314
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 3782741383840048874
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 17822572768771388003
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 583680379242553439
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10772166666146836606
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3524800063213321726
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1210084669500232471,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[3942468452307]": {
+            "Source": "Prefabs/Target.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1152039813970]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/guid",
+                    "value": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1152039813970]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/subId",
+                    "value": 285127096
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1152039813970]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "materialeditor/viewportmodels/cube.fbx.azmodel"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[1152039813970]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
+                    "value": {
+                        "Key": {
+                            "lodIndex": 18446744073709551615,
+                            "materialSlotStableId": 1803671422
+                        },
+                        "Value": {
+                            "MaterialAsset": {
+                                "assetId": {
+                                    "guid": "{FC4426BE-2730-5E21-8447-1941E909AA37}",
+                                    "subId": 0
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": "assets/materials/props_1.azmaterial"
+                            },
+                            "PropertyOverrides": [],
+                            "ModelUvOverrides": []
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Name",
+                    "value": "Target_1"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -1.5
+                }
+            ]
+        },
+        "Instance_[4204461457363]": {
+            "Source": "Prefabs/Target.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Name",
+                    "value": "Target_2"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1152039813970]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/guid",
+                    "value": "{8A2E7A82-D7C3-5E9C-A56C-6EDA70876347}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1152039813970]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/subId",
+                    "value": 268721130
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1152039813970]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "materialeditor/viewportmodels/cylinder.fbx.azmodel"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[1152039813970]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
+                    "value": {
+                        "Key": {
+                            "lodIndex": 18446744073709551615,
+                            "materialSlotStableId": 1803671422
+                        },
+                        "Value": {
+                            "MaterialAsset": {
+                                "assetId": {
+                                    "guid": "{F0078AC3-792C-57FC-B31F-3B0894E32949}",
+                                    "subId": 0
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": "assets/materials/props_2.azmaterial"
+                            },
+                            "PropertyOverrides": [],
+                            "ModelUvOverrides": []
+                        }
+                    }
+                }
+            ]
+        },
+        "Instance_[4406324920275]": {
+            "Source": "Prefabs/Target.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Name",
+                    "value": "Target_3"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 1.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1152039813970]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/guid",
+                    "value": "{8E6D29E3-0019-5C5A-9F5D-61656BC02DD7}"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1152039813970]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetId/subId",
+                    "value": 284874770
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1152039813970]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "materialeditor/viewportmodels/cone.fbx.azmodel"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[1152039813970]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
+                    "value": {
+                        "Key": {
+                            "lodIndex": 18446744073709551615,
+                            "materialSlotStableId": 1803671422
+                        },
+                        "Value": {
+                            "MaterialAsset": {
+                                "assetId": {
+                                    "guid": "{AA30ECC7-ED26-59F4-B751-01689D4B16EF}",
+                                    "subId": 0
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": "assets/materials/props_3.azmaterial"
+                            },
+                            "PropertyOverrides": [],
+                            "ModelUvOverrides": []
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

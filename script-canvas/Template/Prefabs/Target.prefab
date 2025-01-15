@@ -1,0 +1,237 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Target",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7259582715304422856
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 12978523892452856572
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11545792912422826528,
+                "Child Entity Order": [
+                    "Entity_[1152039813970]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 15889101014527366686
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 1076473997728957136
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13152944218079427005
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5697954816549894616
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 13807204293359660415
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2858352009722017199
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6703197589976308841,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1152039813970]": {
+            "Id": "Entity_[1152039813970]",
+            "Name": "Target",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7473837483686378277
+                },
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 14521365263906855231,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.5
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.5,
+                                0.5,
+                                0.5
+                            ]
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12738164493768891986
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15199560349347845951
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11746474642835184441
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13832348600082425711,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5162001108217791185
+                        },
+                        {
+                            "ComponentId": 7473837483686378277,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11550707943658115129,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 7617227496962188090,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17480360918170465785
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11550707943658115129
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7449100612606301589
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8698691648921516055
+                },
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 11383127026686432482,
+                    "Configuration": {
+                        "entityId": "",
+                        "Compute Mass": false,
+                        "Mass": 0.5,
+                        "Centre of mass offset": [
+                            0.0,
+                            0.0,
+                            0.25
+                        ],
+                        "Inertia tensor": [
+                            0.0208333358168602,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0208333358168602,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.02083333395421505
+                        ]
+                    },
+                    "PhysXSpecificConfiguration": {
+                        "SolverPositionIterations": 12
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3435236804570405502
+                },
+                "ScriptEditorComponent": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 11627757217946088214,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{32330AF7-6800-5288-8D74-EFC6A28C710E}",
+                            "path": "Assets/Scripts/Target.scriptcanvas"
+                        },
+                        "sourceName": "Target.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{32330AF7-6800-5288-8D74-EFC6A28C710E}",
+                                "path": "Assets/Scripts/Target.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 2.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{E6A39284-4782-4E69-80C7-88495BBC90E4}"
+                                    },
+                                    "VariableName": "RespawnDelay",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 2.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{E6A39284-4782-4E69-80C7-88495BBC90E4}"
+                                    },
+                                    "VariableName": "RespawnDelay",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5162001108217791185,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 0.5
+                    }
+                }
+            }
+        }
+    }
+}
